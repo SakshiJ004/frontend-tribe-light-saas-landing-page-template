@@ -1,5 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+
+    basePath: "/frontend-tribe-light-saas-landing-page-tamplate",  // 🔥 your repo name
+  assetPrefix: "/frontend-tribe-light-saas-landing-page-template/",
+
+  images: {
+    unoptimized: true, // 🔥 required
+  },
+
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>
