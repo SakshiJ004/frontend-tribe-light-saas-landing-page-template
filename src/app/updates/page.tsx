@@ -85,14 +85,14 @@ export default function UpdatesPage() {
                         alt="Cylinder"
                         width={160}
                         height={160}
-                        className="hidden md:block absolute right-28 top-0"
+                        className="hidden lg:block absolute right-28 top-0"
                         style={{ translateY }}
                     />
                     <motion.img
                         src={noodleImage.src}
                         alt="Noodle"
                         width={160}
-                        className="hidden md:block absolute left-28 bottom-10 rotate-[30deg]"
+                        className="hidden lg:block absolute left-28 bottom-10 rotate-[30deg]"
                         style={{ translateY }}
                     />
 

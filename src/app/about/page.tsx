@@ -101,7 +101,7 @@ export default function AboutPage() {
                     {/* Cylinder floating */}
                     <div className="relative mt-16 flex justify-center">
                         <motion.div
-                            className="hidden md:block absolute -right-24 -top-16"
+                            className="hidden lg:block absolute -right-24 -top-16"
                             style={{ translateY }}
                         >
                             <Image src={cylinderImage} alt="Cylinder" width={180} height={180} />

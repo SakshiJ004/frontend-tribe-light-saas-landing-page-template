@@ -74,7 +74,7 @@ export default function FeaturesPage() {
                         alt="Pyramid"
                         width={220}
                         height={220}
-                        className="hidden md:block absolute right-28 top-10"
+                        className="hidden lg:block absolute right-28 top-10"
                         style={{ translateY }}
                     />
                     <motion.img
@@ -82,7 +82,7 @@ export default function FeaturesPage() {
                         alt="Tube"
                         width={200}
                         height={200}
-                        className="hidden md:block absolute left-28 bottom-10"
+                        className="hidden lg:block absolute left-28 bottom-10"
                         style={{ translateY }}
                     />
 
