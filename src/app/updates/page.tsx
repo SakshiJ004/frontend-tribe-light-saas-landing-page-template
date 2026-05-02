@@ -85,18 +85,18 @@ export default function UpdatesPage() {
                         alt="Cylinder"
                         width={160}
                         height={160}
-                        className="hidden md:block absolute -right-16 top-0"
+                        className="hidden md:block absolute right-28 top-0"
                         style={{ translateY }}
                     />
                     <motion.img
                         src={noodleImage.src}
                         alt="Noodle"
                         width={160}
-                        className="hidden md:block absolute -left-16 bottom-10 rotate-[30deg]"
+                        className="hidden md:block absolute left-28 bottom-10 rotate-[30deg]"
                         style={{ translateY }}
                     />
 
-                    <div className="flex flex-col gap-8 max-w-3xl mx-auto">
+                    <div className="flex flex-col md:flex-row gap-8 max-w-5xl mx-auto">
                         {updates.map((update, index) => (
                             <motion.div
                                 key={index}
