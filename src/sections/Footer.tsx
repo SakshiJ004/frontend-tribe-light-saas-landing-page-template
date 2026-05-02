@@ -6,6 +6,7 @@ import SocialPin from '@/assets/social-pin.svg'
 import SocialYoutube from '@/assets/social-youtube.svg'
 
 import Image from 'next/image';
+import Link from 'next/link'
 
 
 export const Footer = () => {
@@ -16,12 +17,11 @@ export const Footer = () => {
           <Image src={logo} height={40} alt='SaaS logo' className='relative' />
         </div>
         <nav className='flex flex-col md:flex-row md:justify-center gap-6 mt-6'>
-          <a href="">About</a>
-          <a href="">Features</a>
-          <a href="">Customers</a>
-          <a href="">Pricing</a>
-          <a href="">Help</a>
-          <a href="">Careers</a>
+          <Link href="/about">About</Link>
+          <Link href="/features">Features</Link>
+          <Link href="/customers">Customers</Link>
+          <Link href="/updates">Updates</Link>
+          <Link href="/help">Help</Link>
         </nav>
         <div className='flex justify-center gap-6 mt-6
         '>
